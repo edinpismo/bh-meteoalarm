@@ -1,0 +1,158 @@
+{
+    "20220401": {
+        "HIGH-TEMPERATURE_R01_0": {
+            "identifier": "2.49.0.0.70.0.BA.220401151445.113254711",
+            "references": "",
+            "sadrzaj_upozorenja": [
+                "Region_01",
+                "HIGH-TEMPERATURE",
+                "yellow",
+                "11:00",
+                "16:59",
+                "Upozorenje za visoku temperaturu",
+                "NULL",
+                "High temperature warning",
+                "Monitor",
+                "Likely",
+                "BUDITE SVJESNI. Budite u toku sa aktuelnom vremenskom prognozom. Očekujte manje smetnje u aktivnostima na otvorenom.",
+                "BE AWARE. Keep up to date with the latest weather forecast. Expect minor distractions from outdoor activities.",
+                "Budite svjesni da se očekuju visoke temperature zraka. Mogući su  zdravstveni rizici među ugroženim osobama, na primjer starije vrlo mlade osobe.",
+                "Be aware that you should expect high temperature. There are possible health risks among vulnerable people, for example older and very young people.",
+                "sinoptika@fhmzbih.gov.ba,2.49.0.0.70.0.BA.220401151445.113254711,2022-04-01T15:14:45+02:00",
+                "0"
+            ]
+        },
+        "HIGH-TEMPERATURE_R02_0": {
+            "identifier": "2.49.0.0.70.0.BA.220401151445.143359093",
+            "references": "",
+            "sadrzaj_upozorenja": [
+                "Region_02",
+                "HIGH-TEMPERATURE",
+                "yellow",
+                "11:00",
+                "16:59",
+                "Upozorenje za visoku temperaturu",
+                "NULL",
+                "High temperature warning",
+                "Monitor",
+                "Likely",
+                "BUDITE SVJESNI. Budite u toku sa aktuelnom vremenskom prognozom. Očekujte manje smetnje u aktivnostima na otvorenom.",
+                "BE AWARE. Keep up to date with the latest weather forecast. Expect minor distractions from outdoor activities.",
+                "Budite svjesni da se očekuju visoke temperature zraka. Mogući su  zdravstveni rizici među ugroženim osobama, na primjer starije vrlo mlade osobe.",
+                "Be aware that you should expect high temperature. There are possible health risks among vulnerable people, for example older and very young people.",
+                "sinoptika@fhmzbih.gov.ba,2.49.0.0.70.0.BA.220401151445.143359093,2022-04-01T15:14:45+02:00",
+                "0"
+            ]
+        },
+        "HIGH-TEMPERATURE_R03_0": {
+            "identifier": "2.49.0.0.70.0.BA.220401151445.90898575",
+            "references": "",
+            "sadrzaj_upozorenja": [
+                "Region_03",
+                "HIGH-TEMPERATURE",
+                "yellow",
+                "11:00",
+                "16:59",
+                "Upozorenje za visoku temperaturu",
+                "NULL",
+                "High temperature warning",
+                "Monitor",
+                "Likely",
+                "BUDITE SVJESNI. Budite u toku sa aktuelnom vremenskom prognozom. Očekujte manje smetnje u aktivnostima na otvorenom.",
+                "BE AWARE. Keep up to date with the latest weather forecast. Expect minor distractions from outdoor activities.",
+                "Budite svjesni da se očekuju visoke temperature zraka. Mogući su  zdravstveni rizici među ugroženim osobama, na primjer starije vrlo mlade osobe.",
+                "Be aware that you should expect high temperature. There are possible health risks among vulnerable people, for example older and very young people.",
+                "sinoptika@fhmzbih.gov.ba,2.49.0.0.70.0.BA.220401151445.90898575,2022-04-01T15:14:45+02:00",
+                "0"
+            ]
+        },
+        "HIGH-TEMPERATURE_R04_0": {
+            "identifier": "2.49.0.0.70.0.BA.220401151445.172026001",
+            "references": "",
+            "sadrzaj_upozorenja": [
+                "Region_04",
+                "HIGH-TEMPERATURE",
+                "yellow",
+                "11:00",
+                "16:59",
+                "Upozorenje za visoku temperaturu",
+                "NULL",
+                "High temperature warning",
+                "Monitor",
+                "Likely",
+                "BUDITE SVJESNI. Budite u toku sa aktuelnom vremenskom prognozom. Očekujte manje smetnje u aktivnostima na otvorenom.",
+                "BE AWARE. Keep up to date with the latest weather forecast. Expect minor distractions from outdoor activities.",
+                "Budite svjesni da se očekuju visoke temperature zraka. Mogući su  zdravstveni rizici među ugroženim osobama, na primjer starije vrlo mlade osobe.",
+                "Be aware that you should expect high temperature. There are possible health risks among vulnerable people, for example older and very young people.",
+                "sinoptika@fhmzbih.gov.ba,2.49.0.0.70.0.BA.220401151445.172026001,2022-04-01T15:14:45+02:00",
+                "0"
+            ]
+        },
+        "HIGH-TEMPERATURE_R05_0": {
+            "identifier": "2.49.0.0.70.0.BA.220401151445.157652346",
+            "references": "",
+            "sadrzaj_upozorenja": [
+                "Region_05",
+                "HIGH-TEMPERATURE",
+                "yellow",
+                "11:00",
+                "16:59",
+                "Upozorenje za visoku temperaturu",
+                "NULL",
+                "High temperature warning",
+                "Monitor",
+                "Likely",
+                "BUDITE SVJESNI. Budite u toku sa aktuelnom vremenskom prognozom. Očekujte manje smetnje u aktivnostima na otvorenom.",
+                "BE AWARE. Keep up to date with the latest weather forecast. Expect minor distractions from outdoor activities.",
+                "Budite svjesni da se očekuju visoke temperature zraka. Mogući su  zdravstveni rizici među ugroženim osobama, na primjer starije vrlo mlade osobe.",
+                "Be aware that you should expect high temperature. There are possible health risks among vulnerable people, for example older and very young people.",
+                "sinoptika@fhmzbih.gov.ba,2.49.0.0.70.0.BA.220401151445.157652346,2022-04-01T15:14:45+02:00",
+                "0"
+            ]
+        },
+        "HIGH-TEMPERATURE_R06_0": {
+            "identifier": "2.49.0.0.70.0.BA.220401151445.115182508",
+            "references": "",
+            "sadrzaj_upozorenja": [
+                "Region_06",
+                "HIGH-TEMPERATURE",
+                "orange",
+                "11:00",
+                "16:59",
+                "Narandžasto upozorenje za visoku temperaturu",
+                "NULL",
+                "Orange level warning for high temperature event",
+                "Avoid",
+                "Likely",
+                "BUDITE SPREMNI. Poduzmite mjere opreza i pratite aktuelnu prognozu vremena. Očekujte ometanja u dnevnim rutinama i BUDITE SPREMNI obustaviti aktivnosti na otvorenom.",
+                "BE READY. Take precautions and follow the latest weather forecast. Expect distractions in your daily routines and BE READY to stop outdoor activities.",
+                "Budite spremni na visoke temperature koje će dovesti do zdravstvenih rizika među ugroženim osobama,  na primjer starije i vrlo mlade osobe. Slušajte i djelovati na savjet iz vlasti. Poslušajte i djelujte u skladu sa savjetima ovlaštenih organa.",
+                "Be prepared for high temperatures that will lead to health risks among vulnerable people, such as the elderly and very young people. Listen and act on government advice. Listen and act in accordance with the advice of the authorities.",
+                "sinoptika@fhmzbih.gov.ba,2.49.0.0.70.0.BA.220401151445.115182508,2022-04-01T15:14:45+02:00",
+                "0"
+            ]
+        },
+        "HIGH-TEMPERATURE_R07_0": {
+            "identifier": "2.49.0.0.70.0.BA.220401151445.90798043",
+            "references": "",
+            "sadrzaj_upozorenja": [
+                "Region_07",
+                "HIGH-TEMPERATURE",
+                "orange",
+                "11:00",
+                "16:59",
+                "Narandžasto upozorenje za visoku temperaturu",
+                "NULL",
+                "Orange level warning for high temperature event",
+                "Avoid",
+                "Likely",
+                "BUDITE SPREMNI. Poduzmite mjere opreza i pratite aktuelnu prognozu vremena. Očekujte ometanja u dnevnim rutinama i BUDITE SPREMNI obustaviti aktivnosti na otvorenom.",
+                "BE READY. Take precautions and follow the latest weather forecast. Expect distractions in your daily routines and BE READY to stop outdoor activities.",
+                "Budite spremni na visoke temperature koje će dovesti do zdravstvenih rizika među ugroženim osobama,  na primjer starije i vrlo mlade osobe. Slušajte i djelovati na savjet iz vlasti. Poslušajte i djelujte u skladu sa savjetima ovlaštenih organa.",
+                "Be prepared for high temperatures that will lead to health risks among vulnerable people, such as the elderly and very young people. Listen and act on government advice. Listen and act in accordance with the advice of the authorities.",
+                "sinoptika@fhmzbih.gov.ba,2.49.0.0.70.0.BA.220401151445.90798043,2022-04-01T15:14:45+02:00",
+                "0"
+            ]
+        }
+    }
+}

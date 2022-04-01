@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+<identifier>2.49.0.0.70.0.BA.220401151445.90798043</identifier>
+<sender>sinoptika@fhmzbih.gov.ba</sender>
+<sent>2022-04-01T15:14:45+02:00</sent>
+<status>Actual</status>
+<msgType>Alert</msgType>
+<scope>Public</scope>
+<info>
+<language>en</language>
+<category>Met</category>
+<event>High-temperature Orange Warning</event>
+<responseType>Avoid</responseType>
+<urgency>Future</urgency>
+<severity>Severe</severity>
+<certainty>Likely</certainty>
+<effective>2022-04-01T15:14:45+02:00</effective>
+<expires>2022-04-01T16:59:00+02:00</expires>
+<senderName>Hydrometeorological Institute of Federation of Bosnia and Herzegovina</senderName>
+<headline>High-temperature Orange Warning for Bosnia and Herzegovina - region Region_07</headline>
+<description>Orange level warning for high temperature event</description>
+<instruction>Be prepared for high temperatures that will lead to health risks among vulnerable people, such as the elderly and very young people. Listen and act on government advice. Listen and act in accordance with the advice of the authorities.</instruction>
+<web>http://www.fhmzbih.gov.ba/latinica/</web>
+<parameter>
+<valueName>awareness_level</valueName>
+<value>3; orange; Severe</value>
+</parameter>
+<parameter>
+<valueName>awareness_type</valueName>
+<value>5; high-temperature</value>
+</parameter>
+<area>
+<areaDesc>Region_07</areaDesc>
+<polygon>43.7943187,17.7187656 43.7943187,17.7187655 43.0178703,17.8272757 43.0178703,17.8272758 43.0178703,17.8272758 43.0178703,17.8272758 42.6344787,18.4463835 42.6344786,18.4463835 42.6344785,18.4463836 43.7943187,17.7187656</polygon>
+</area>
+</info>
+<info>
+<language>bs</language>
+<category>Met</category>
+<event>Visoka-temperatura Narandžasto Upozorenje</event>
+<responseType>Avoid</responseType>
+<urgency>Future</urgency>
+<severity>Severe</severity>
+<certainty>Likely</certainty>
+<effective>2022-04-01T15:14:45+02:00</effective>
+<onset>2022-04-01T11:00:00+02:00</onset>
+<expires>2022-04-01T16:59:00+02:00</expires>
+<senderName>Federalni hidrometeorološki zavod Federacije Bosne i Hercegovine</senderName>
+<headline>Visoka-temperatura Narandžasto Upozorenje za Bosnu i Hercegovinu - region Region_07</headline>
+<description>Narandžasto upozorenje za visoku temperaturu</description>
+<instruction>Budite spremni na visoke temperature koje će dovesti do zdravstvenih rizika među ugroženim osobama,  na primjer starije i vrlo mlade osobe. Slušajte i djelovati na savjet iz vlasti. Poslušajte i djelujte u skladu sa savjetima ovlaštenih organa.</instruction>
+<web>http://www.fhmzbih.gov.ba/latinica/</web>
+<parameter>
+<valueName>awareness_level</valueName>
+<value>3; orange; Severe</value>
+</parameter>
+<parameter>
+<valueName>awareness_type</valueName>
+<value>5; high-temperature</value>
+</parameter>
+<area>
+<areaDesc>Region_07</areaDesc>
+<polygon>43.7943187,17.7187656 43.7943187,17.7187655 43.0178703,17.8272757 43.0178703,17.8272758 43.0178703,17.8272758 43.0178703,17.8272758 42.6344787,18.4463835 42.6344786,18.4463835 42.6344785,18.4463836 43.7943187,17.7187656</polygon>
+</area>
+</info>
+</alert>
