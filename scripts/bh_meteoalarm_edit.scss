@@ -1,0 +1,320 @@
+* {
+    background-color: #016868;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ :root {
+    --button-color: #2E8B57;
+    --button-hover: #41a06a;
+    --selected-color: turquoise;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.vidljivo {
+    visibility: visible;
+    /*display: inline;*/
+}
+
+.nevidljivo {
+    visibility: hidden;
+    display: none;
+}
+
+select,
+option {
+    background-color: white;
+}
+
+.EditMeteoalarmDIVLijeviCentralniDesni {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 99%;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    /*overflow-x: hidden;*/
+    /*border: 2px solid red;*/
+    .EditMeteoalarmDIVLijevi,
+    .EditMeteoalarmDIVCentralni,
+    .EditMeteoalarmDIVDesni {
+        display: table-cell;
+        height: 100%;
+        color: white;
+        .EditMeteoalarmDIVButton {
+            padding-top: 25px;
+            input {
+                border: 2px solid black;
+                text-align: center;
+                background-color: var(--button-color);
+                height: 35px;
+                width: 100%;
+                padding: 5px 20px;
+                border-radius: 10px;
+                font-weight: bold;
+                color: white;
+                font-size: large;
+            }
+            input:hover:not([disabled]) {
+                background-color: var(--button-hover);
+                cursor: pointer;
+            }
+        }
+        /*border: 2px solid orange;*/
+    }
+    .EditMeteoalarmDIVLijevi {
+        width: 15%;
+        input[type=button]:disabled {
+            background-color: gray;
+            cursor: auto;
+        }
+        input:disabled+label {
+            opacity: 0;
+            cursor: auto;
+        }
+        /*border: 2px solid yellow;*/
+        .EditMeteoalarmDIVPojava,
+        .EditMeteoalarmDIVRegion {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 5px 0px 0px 23px;
+        }
+        label,
+        input {
+            padding-left: 5px;
+        }
+        input:hover,
+        label:hover {
+            background-color: var(--button-hover);
+            cursor: pointer;
+        }
+        label {
+            display: inline-block;
+            width: 100%;
+        }
+        input:checked+label {
+            color: var(--selected-color);
+            opacity: 1;
+        }
+        .prikaz_regiona_checkboxes {
+            padding-top: 5px;
+            height: 300px;
+            overflow-y: scroll;
+            overflow-x: auto;
+        }
+        select {
+            width: 90%;
+            display: block;
+            margin: auto;
+            margin-top: 5px;
+            option {
+                padding: 5px;
+            }
+        }
+    }
+    .EditMeteoalarmDIVCentralni {
+        position: absolute;
+        height: 100%;
+        width: 64%;
+        overflow: auto;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        iframe {
+            overflow: hidden;
+            position: absolute;
+            width: 90%;
+            height: 95%;
+            left: 50%;
+            transform: translate(-50%);
+        }
+    }
+    .EditMeteoalarmDIVDesni {
+        input:disabled {
+            background-color: gray;
+            cursor: auto;
+        }
+        position: relative;
+        width: 20%;
+    }
+}
+
+#prikaz_unosa_div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .container {
+        padding: 5px;
+        div:nth-child(1) {
+            span:nth-child(1) {
+                width: 25%;
+                select {
+                    width: 120px;
+                }
+            }
+            span:nth-child(2) {
+                width: 45%;
+            }
+            span:nth-child(3) {
+                width: 25%;
+            }
+        }
+        div:nth-child(2),
+        div:nth-child(3),
+        div:nth-child(4),
+        div:nth-child(5) {
+            width: 100%;
+            span {
+                margin: 0;
+                width: 49%;
+            }
+        }
+        div:nth-child(5) {
+            border-bottom: 5px solid gray;
+        }
+    }
+    span {
+        padding: 5px;
+        margin: 5px;
+        display: inline-block;
+    }
+    width: 100%;
+    p {
+        display: inline;
+        padding: 0 5px 0 0;
+    }
+    p.dvotacka {
+        padding: 0 5px;
+    }
+    input,
+    textarea {
+        background-color: white;
+        color: black;
+        width: 100%;
+    }
+    textarea {
+        height: 100px;
+        resize: none;
+    }
+    input[type=button] {
+        background-color: var(--button-color);
+        color: white;
+        font-weight: bolder;
+        font-size: 23px;
+        height: 30px;
+        width: 100px;
+        padding: 0;
+    }
+    input[type=button]:hover:not([disabled]) {
+        cursor: pointer;
+        background-color: var(--button-hover)
+    }
+    input:disabled {
+        background-color: gray;
+        cursor: auto;
+    }
+    select {
+        min-width: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: left;
+    }
+    option {
+        padding: 0 2px;
+        font-weight: bolder;
+    }
+}
+
+#prikaz_upozorenja_div {
+    text-align: center;
+    .parametri_div {
+        display: block;
+        width: 100%;
+        background-color: var(--selected-color);
+        text-align: center;
+        letter-spacing: 3px;
+        color: black;
+        table,
+        th,
+        td {
+            border: 2px solid white;
+            color: white;
+        }
+        table {
+            width: 100%;
+            padding-bottom: 50px;
+        }
+        th {
+            background-color: white;
+            color: black;
+        }
+        th:nth-child(1),
+        td:nth-child(1) {
+            width: 150px;
+            max-width: 150px;
+            text-align: left;
+            content: "dfgbs";
+        }
+        th:nth-child(3),
+        td:nth-child(3) {
+            width: 50px;
+            max-width: 50px;
+        }
+        th:nth-child(4),
+        th:nth-child(5),
+        td:nth-child(4),
+        td:nth-child(5) {
+            width: 50px;
+            max-width: 50px;
+        }
+        th:nth-child(6),
+        td:nth-child(6) {
+            width: 300px;
+            max-width: 600px;
+            text-align: left;
+        }
+        th:nth-child(7),
+        td:nth-child(7) {
+            width: 30px;
+            max-width: 30px;
+        }
+    }
+    input[name=prihvati] {
+        color: white;
+        background-color: var(--button-color);
+        margin-top: 50px;
+        padding: 5px;
+        height: 50px;
+        width: 200px;
+        font-weight: bolder;
+        letter-spacing: 3px;
+        font-size: 18px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    input[name=prihvati]:hover:not([disabled]) {
+        cursor: pointer;
+        background-color: var(--button-hover)
+    }
+    input:disabled {
+        background-color: gray;
+        cursor: auto;
+    }
+    .edit_btn {
+        color: white;
+        background-color: var(--button-color);
+        padding: 5px;
+        width: 100%;
+        font-weight: bold;
+        border: 2px solid black;
+        cursor: pointer;
+    }
+}

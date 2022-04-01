@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./scripts/bh_meteoalarm_edit.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./scripts/bh_meteoalarm_edit_jQuery.js"></script>
+    <title>prikaz</title>
+</head>
+
+<body>
+    <style>
+         :root {
+            --selected-color: turquoise;
+        }
+        
+        body {
+            height: 810px;
+            width: 830px;
+        }
+        
+        svg {
+            position: absolute;
+            display: block;
+            left: 50%;
+            transform: translate(-50%);
+            height: 810px;
+            width: 830px;
+        }
+        
+        polygon {
+            stroke: black;
+            stroke-width: 5px;
+            fill: white;
+            cursor: pointer;
+        }
+        
+        polygon.selected {
+            fill: var(--selected-color);
+        }
+    </style>
+    <script>
+        let REGIONI = [];
+        $.ajax({
+            type: "get",
+            url: 'Regioni.json',
+            dataType: "json",
+            async: false,
+            success: function(data) {
+                REGIONI = data;
+            }
+        });
+        document.write("<svg>");
+        for (let i = 0; i < REGIONI.length; i++) {
+            document.write("<polygon id='karta_" + REGIONI[i]["id"] + "' points='" + REGIONI[i]["html_polygon_points"] + "' name='karta_prikaz_regiona'></polygon>");
+        }
+        document.write("</svg>");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+* {
+  background-color: #016868;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --button-color: #2E8B57;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.vidljivo {
+  visibility: visible;
+  display: inline;
+}
+
+.nevidljivo {
+  visibility: hidden;
+  display: none;
+}
+
+select,
+option {
+  background-color: white;
+}
+
+.ViewMeteoalarmDIVregionikarta {
+  display: table;
+  position: absolute;
+  height: 87%;
+  width: 90%;
+  top: 5px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVregioni,
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVkarta {
+  display: table-cell;
+  border-bottom: 2px solid black;
+}
+
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVregioni {
+  width: 30%;
+  overflow-y: auto;
+}
+
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVregioni table {
+  width: 100%;
+  background-color: black;
+}
+
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVregioni table th,
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVregioni table td {
+  max-height: 30px;
+  padding: 5px;
+  background-color: white;
+}
+
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVregioni table th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVregioni table td:first-of-type {
+  min-width: 200px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVregioni table img {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: 80%;
+  height: 80%;
+}
+
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVkarta {
+  position: relative;
+  width: 69%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVkarta iframe {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  left: 5%;
+}
+
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVkarta #upozorenja {
+  display: none;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 10;
+  width: 50vw;
+}
+
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVkarta #upozorenja table th,
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVkarta #upozorenja table td {
+  background-color: white;
+}
+
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVkarta #upozorenja table th:nth-child(1) {
+  width: 15vw;
+}
+
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVkarta #upozorenja table th:nth-child(2) {
+  width: 7vw;
+}
+
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVkarta #upozorenja table th:nth-child(3),
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVkarta #upozorenja table th:nth-child(4),
+.ViewMeteoalarmDIVregionikarta .ViewMeteoalarmDIVkarta #upozorenja table th:nth-child(5) {
+  width: 4vw;
+}
+
+.ViewMeteoalarmDIVvrijeme {
+  position: absolute;
+  display: block;
+  top: 88%;
+  height: 40px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.ViewMeteoalarmDIVvrijeme input {
+  border: 2px solid black;
+  text-align: center;
+  background-color: var(--button-color);
+  height: 35px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: large;
+}
+
+.ViewMeteoalarmDIVvrijeme input[type=button] {
+  width: 80px;
+  cursor: pointer;
+}
+
+.ViewMeteoalarmDIVvrijeme input[type=text] {
+  width: 200px;
+  font-size: larger;
+  color: black;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+.ViewMeteoalarmDIVvrijeme input[type=button]:disabled {
+  background-color: gray;
+  cursor: auto;
+}
+
+.ViewMeteoalarmDIVedit {
+  position: absolute;
+  display: block;
+  top: 92%;
+  height: 40px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.ViewMeteoalarmDIVedit input {
+  background-color: var(--button-color);
+  font-size: large;
+  border: 2px solid black;
+  height: 35px;
+  width: 182px;
+  padding: 5px 30px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=bh_meteoalarm_view.css.map */

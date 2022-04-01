@@ -1,0 +1,78 @@
+[{
+    "name": "Region_01",
+    "id": "R01",
+    "html_bg_color": "rgb(50,50,50)",
+    "html_polygon_points": "14,14 20,155 100,306 166,206 176,10 103,76",
+    "cap_points": "44.3738063,17.7518438 44.3738059,17.7518437 44.3738059,17.7518437 44.3738058,17.7518437 43.7943187,17.7187656 44.485785,18.263903 44.3738063,17.7518438",
+    "nms_url": "http://www.fhmzbih.gov.ba/latinica/",
+    "warning_detail": "http://www.fhmzbih.gov.ba/latinica/",
+    "sender": "sinoptika@fhmzbih.gov.ba",
+    "center": "2.49.0.0.70.0",
+    "institution": ["Federalni hidrometeorološki zavod Federacije Bosne i Hercegovine", "Hydrometeorological Institute of Federation of Bosnia and Herzegovina"]
+}, {
+    "name": "Region_02",
+    "id": "R02",
+    "html_bg_color": "rgb(75,75,75)",
+    "html_polygon_points": "176,10 166,206 410,350 550,190 525,32 340,30",
+    "cap_points": "44.485785,18.263903 43.8245716,18.3806784 44.4648392,18.2054224 44.3205667,18.5119702 44.3738063,17.7518438 44.485785,18.263903 44.485785,18.263903",
+    "nms_url": "http://www.fhmzbih.gov.ba/latinica/",
+    "warning_detail": "http://www.fhmzbih.gov.ba/latinica/",
+    "sender": "sinoptika@fhmzbih.gov.ba",
+    "center": "2.49.0.0.70.0",
+    "institution": ["Federalni hidrometeorološki zavod Federacije Bosne i Hercegovine", "Hydrometeorological Institute of Federation of Bosnia and Herzegovina"]
+}, {
+    "name": "Region_03",
+    "id": "R03",
+    "html_bg_color": "rgb(100,100,100)",
+    "html_polygon_points": "525,32 550,190 722,208 762,116 660,114",
+    "cap_points": "43.9003576,17.7022609 43.952755,18.0528611 44.4648392,18.2054224 43.8245716,18.3806784 43.5421632,19.7121348 43.9003576,17.7022609",
+    "nms_url": "http://www.fhmzbih.gov.ba/latinica/",
+    "warning_detail": "http://www.fhmzbih.gov.ba/latinica/",
+    "sender": "sinoptika@fhmzbih.gov.ba",
+    "center": "2.49.0.0.70.0",
+    "institution": ["Federalni hidrometeorološki zavod Federacije Bosne i Hercegovine", "Hydrometeorological Institute of Federation of Bosnia and Herzegovina"]
+}, {
+    "name": "Region_04",
+    "id": "R04",
+    "html_bg_color": "rgb(120,120,120)",
+    "html_polygon_points": "100,306 313,550 410,350 166,206",
+    "cap_points": "43.6096731,17.2499349 43.7943187,17.7187656 43.7943187,17.7187656 44.485785,18.263903 44.485785,18.263903 43.6096731,17.2499349",
+    "nms_url": "http://www.fhmzbih.gov.ba/latinica/",
+    "warning_detail": "http://www.fhmzbih.gov.ba/latinica/",
+    "sender": "sinoptika@fhmzbih.gov.ba",
+    "center": "2.49.0.0.70.0",
+    "institution": ["Federalni hidrometeorološki zavod Federacije Bosne i Hercegovine", "Hydrometeorological Institute of Federation of Bosnia and Herzegovina"]
+}, {
+    "name": "Region_05",
+    "id": "R05",
+    "html_bg_color": "rgb(150,150,150)",
+    "html_polygon_points": "410,350 535,490 705,580 805,470 745,370 821,360 722,208 550,190",
+    "cap_points": "44.485785,18.263903 43.8132094,18.4714499 43.1791551,18.3828048 43.1791551,18.3828049 43.1791551,18.3828049 43.4325388,19.2878204 43.5421632,19.7121348 43.8245716,18.3806784 44.485785,18.263903",
+    "nms_url": "http://www.fhmzbih.gov.ba/latinica/",
+    "warning_detail": "http://www.fhmzbih.gov.ba/latinica/",
+    "sender": "sinoptika@fhmzbih.gov.ba",
+    "center": "2.49.0.0.70.0",
+    "institution": ["Federalni hidrometeorološki zavod Federacije Bosne i Hercegovine", "Hydrometeorological Institute of Federation of Bosnia and Herzegovina"]
+}, {
+    "name": "Region_06",
+    "id": "R06",
+    "html_bg_color": "rgb(175,175,175)",
+    "html_polygon_points": "313,550 585,670 705,580 535,490 410,350",
+    "cap_points": "43.7943187,17.7187656 42.6344785,18.4463836 43.1791551,18.3828048 43.8132094,18.4714499 44.485785,18.263903 43.7943187,17.7187656",
+    "nms_url": "http://www.fhmzbih.gov.ba/latinica/",
+    "warning_detail": "http://www.fhmzbih.gov.ba/latinica/",
+    "sender": "sinoptika@fhmzbih.gov.ba",
+    "center": "2.49.0.0.70.0",
+    "institution": ["Federalni hidrometeorološki zavod Federacije Bosne i Hercegovine", "Hydrometeorological Institute of Federation of Bosnia and Herzegovina"]
+}, {
+    "name": "Region_07",
+    "id": "R07",
+    "html_bg_color": "rgb(200,200,200)",
+    "html_polygon_points": "313,550 410,680 376,680 396,707 410,695 434,700 490,755 567,805 585,670",
+    "cap_points": "43.7943187,17.7187656 43.7943187,17.7187655 43.0178703,17.8272757 43.0178703,17.8272758 43.0178703,17.8272758 43.0178703,17.8272758 42.6344787,18.4463835 42.6344786,18.4463835 42.6344785,18.4463836 43.7943187,17.7187656",
+    "nms_url": "http://www.fhmzbih.gov.ba/latinica/",
+    "warning_detail": "http://www.fhmzbih.gov.ba/latinica/",
+    "sender": "sinoptika@fhmzbih.gov.ba",
+    "center": "2.49.0.0.70.0",
+    "institution": ["Federalni hidrometeorološki zavod Federacije Bosne i Hercegovine", "Hydrometeorological Institute of Federation of Bosnia and Herzegovina"]
+}]

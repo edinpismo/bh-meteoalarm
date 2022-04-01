@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./scripts/bh_meteoalarm_view.css">
+    <script type="text/javascript" src="Regioni.json"></script>
+    <script type="text/javascript" src="./scripts/bh_meteoalarm.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./scripts/bh_meteoalarm_view_jQuery.js"></script>
+    <title>VIEW-Meteoalarm</title>
+</head>
+<body scrolling="no">
+    <script>
+        "use strict";
+    </script>
+    <form method="post" action="EditMeteoalarm.php">
+        <div class="ViewMeteoalarmDIVregionikarta">
+            <div class="ViewMeteoalarmDIVregioni">
+                <table>
+                    <tr>
+                        <th>Region</td>
+                        <th><img src="./images/pojave/magla.png" alt="M"></th>
+                        <th><img src="./images/pojave/visoka.png" alt="V"></th>
+                        <th><img src="./images/pojave/niska.png" alt="N"></th>
+                        <th><img src="./images/pojave/kisa.png" alt="K"></th>
+                        <th><img src="./images/pojave/snijeg-led.png" alt="S"></th>
+                        <th><img src="./images/pojave/grmljavina.png" alt="G"></th>
+                        <th><img src="./images/pojave/vjetar.png" alt="J"></th>
+                    </tr>
+                    <script>
+                        let REGIONI=[];
+                        $.ajax({
+                            type: "get",
+                            url: 'Regioni.json',
+                            dataType: "json",
+                            async: false,
+                            success: function(data) {
+                                REGIONI=data;
+                            }
+                        });
+                        let PARAMETRI=[];
+                        $.ajax({
+                            type: "get",
+                            url: 'Parametri.json',
+                            dataType: "json",
+                            async: false,
+                            success: function(data) {
+                                PARAMETRI=data;
+                            }
+                        });
+                        for (let i=0;i<REGIONI.length;i++) {
+                            document.write("<tr><td popover='"+REGIONI[i]["id"]+"'>"+REGIONI[i]["name"]+"</td>");
+                            for(let j=0;j<PARAMETRI.length;j++){
+                                document.write("<td id='"+PARAMETRI[j][0]+"_"+REGIONI[i]["id"]+"'></td>");
+                            }
+                            document.write("</tr>");
+                        }
+                    </script>
+                </table>
+                <input type="text" id="time4post" name="time4post" class="nevidljivo">
+            </div>
+            <div class="ViewMeteoalarmDIVkarta">
+                <div id="upozorenja"></div>
+                <iframe id="prikaz_regiona_iframe" src="karta.html" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="ViewMeteoalarmDIVvrijeme">
+            <input type='button' value='<<' disabled>
+            <input type='text' id="vrijeme" name="vrijeme" value='' readonly>
+            <input type='button' value='>>'>
+        </div>
+        <div class="ViewMeteoalarmDIVedit">
+            <input type='submit' value='EDIT'>
+            <input type='button' value='EXIT' onclick="alert('Namjenjeno za preusmjeravanje na login');">
+        </div>
+    </form>
+</body>
+</html>

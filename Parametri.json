@@ -1,0 +1,9 @@
+[
+    ["FOG", "MAGLA"],
+    ["HIGH-TEMPERATURE", "VISOKA-TEMPERATURA"],
+    ["LOW-TEMPERATURE", "NISKA-TEMPERATURA"],
+    ["RAIN", "KIŠA"],
+    ["SNOW-ICE", "SNIJEG-LED"],
+    ["THUNDERSTORM", "GRMLJAVINA"],
+    ["WIND", "VJETAR"]
+]
